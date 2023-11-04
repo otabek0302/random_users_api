@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Random Users - Generators</title>
+</head>
+
+<body>
+    <div class="random__users-container">
+
+        <div class="random__users-sidebar">
+            <div class="random__users-sidebar__logo">
+                <img src="./assets/images/AO.png" alt="Logo">
+            </div>
+            <div class="random__users-sidebar__controller">
+                
+                <div class="random__users-sidebar__controller-filed">
+                    <button id="male" type="button" >Male</button>
+                </div>
+                <div class="random__users-sidebar__controller-filed">
+                    <button id="female" type="button" >Female</button>
+                </div>
+
+            </div>
+            <div class="random__users-sidebar__footer">
+                <a href="mailto:@otabekjon2002@mail.ru">otabekjon2002@mail.ru</a>
+            </div>
+        </div>
+
+        <div class="random__users-content">
+            <div class="random__users-content__header">
+                <div class="random__users-content__header-input">
+                    <input id="search" type="text" placeholder="Search users by name or username...">
+                </div>
+            </div>
+            <div class="random__users-content__main">
+                <span id="loader" class="loader"></span>
+                <div id="content">
+                    
+                </div>
+                <div class="random__users-content__show_more">
+                    <button id="show_more" type="button">Show more</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
